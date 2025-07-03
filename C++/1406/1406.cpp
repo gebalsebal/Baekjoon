@@ -5,33 +5,48 @@ int main(){
 	cin.tie();
 	ios::sync_with_stdio(0);
 
-	list<char> L(600000);
+	list<char> L;
 	int m;
 	string s;
 	
 	cin >> s >> m;
 	for(int i=0; i<s.size(); i++) L.push_back(s[i]);
 
-	auto iter = L.end();
+	auto iter = L.begin();
+	advance(iter, s.size());
 
 	for(int i=0; i<m; i++){
 		char command;
 		cin >> command;
 		if(command=='L'){
-			if(iter != L.begin())iter--;
+			if(iter != L.begin()) iter--;
 		}
 		else if(command=='D'){
-			if(iter!= L.end()) iter++;
+			auto tmp = L.end()++;
+			if(iter != L.end()++) {iter++; cout <<"1";}
 		}
 		else if(command=='B'){
-			L.erase(iter);
+			if(iter != L.begin()) {
 			iter--;
+			iter = L.erase(iter);
+			}
 		}
 		else if(command=='P'){
 			char tmp;
 			cin >> tmp;
-			L.insert(++iter, tmp);
+			iter = L.insert(iter, tmp);
+			iter++;
 		}
 	}
-	for(int c : L) cout << c << " ";
-}
+	for(char c : L) if(c!='\0') cout << c;
+
+		// list<char> L = {'a', 'b', 'c', 'd'};
+		// auto iter = L.end();
+		
+		// cout << *iter;	
+		// iter--;
+		// cout << *iter << "/";
+		// iter++;
+		// iter--;
+		// cout << *iter;
+	}
