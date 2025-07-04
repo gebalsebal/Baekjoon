@@ -23,7 +23,7 @@ int main(){
 		}
 		else if(command=='D'){
 			auto tmp = L.end()++;
-			if(iter != L.end()++) {iter++; cout <<"1";}
+			if(iter != L.end()++) iter++;
 		}
 		else if(command=='B'){
 			if(iter != L.begin()) {
