@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-	cin.tie();
+	cin.tie(0);
 	ios::sync_with_stdio(0);
 
 	list<char> L;
