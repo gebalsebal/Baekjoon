@@ -38,7 +38,7 @@ int main(){
 			iter++;
 		}
 	}
-	for(char c : L) if(c!='\0') cout << c;
+	for(char c : L) cout << c;
 
 		// list<char> L = {'a', 'b', 'c', 'd'};
 		// auto iter = L.end();
