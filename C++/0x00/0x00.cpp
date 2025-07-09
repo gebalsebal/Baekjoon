@@ -1,7 +1,27 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+int func1(string s){
+	int eng[26];
+	fill(eng, eng+26, 0);
+
+	for(int i=0; i<s.size(); i++){
+		eng[s[i]-'a']++;
+	}
+
+	for(int i=0; i<26; i++){
+		cout << eng[i] << " ";
+	}
+
+	return 0;
+}
+
 int func2(int arr[], int N){
+	int hundred[100] = {};
+	for(int i=0; i<N; i++){
+		if(hundred[arr[i]-1]) return 1;
+		hundred[99-arr[i]]++;
+	}
 	return 0;
 }
 
