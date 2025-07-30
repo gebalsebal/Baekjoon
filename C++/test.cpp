@@ -6,7 +6,22 @@ int main(){
     // c = 1+'0';
     // cout << c;
 
-    string s = "abcdef";
-    for(char &c : s) c = '1';
-    cout << s;
+    // string s = "abcdef";
+    // for(char &c : s) c = '1';
+    // cout << s;
+
+    // int test[10][10] = {{1,2,3},{4,5,6}};
+    // cout << test[0][0] << " " << test[9][9];
+
+    // for(int i=0; i<4; i++){
+    //     for(int j=0; j<4; j++){
+    //         int tmp;
+    //         cin >> tmp;
+    //         cout << tmp << ' ';
+    //     }
+    // }
+
+    char c, ch = 'c';
+    cin >> c >> ch;
+    cout << c << ch;
 }
