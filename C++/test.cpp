@@ -21,7 +21,15 @@ int main(){
     //     }
     // }
 
-    char c, ch = 'c';
-    cin >> c >> ch;
-    cout << c << ch;
+    // char c, ch = 'c';
+    // cin >> c >> ch;
+    // cout << c << ch;
+
+    // cout << (char)('0' + (int)14);
+    // cout << typeid((int)10-'0').name();
+
+    queue<int> Q ={};
+    if(!Q.empty() && Q.front()==1) cout << 1;
+    cout << 0;
+
 }
