@@ -28,8 +28,11 @@ int main(){
     // cout << (char)('0' + (int)14);
     // cout << typeid((int)10-'0').name();
 
-    queue<int> Q ={};
-    if(!Q.empty() && Q.front()==1) cout << 1;
-    cout << 0;
+    // queue<int> Q ={};
+    // if(!Q.empty() && Q.front()==1) cout << 1;
+    // cout << 0;
+
+    // cout << pow((long double)2, (long double)20); //pow연산은 기본적으로 double반환, 큰수에서는 e+로 표기
+    cout << static_cast<long long>(pow(2, 20)-1) << "\n";
 
 }
