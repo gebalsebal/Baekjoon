@@ -33,6 +33,8 @@ int main(){
     // cout << 0;
 
     // cout << pow((long double)2, (long double)20); //pow연산은 기본적으로 double반환, 큰수에서는 e+로 표기
-    cout << static_cast<long long>(pow(2, 20)-1) << "\n";
-
+    // cout << static_cast<long long>(pow(2, 20)-1) << "\n";
+  
+    int test[10][10] = {}; //초기화 O
+    cout << test[0][0] << test[5][5];
 }
