@@ -35,6 +35,12 @@ int main(){
     // cout << pow((long double)2, (long double)20); //pow연산은 기본적으로 double반환, 큰수에서는 e+로 표기
     // cout << static_cast<long long>(pow(2, 20)-1) << "\n";
   
-    int test[10][10] = {}; //초기화 O
-    cout << test[0][0] << test[5][5];
+    // int test[10][10] = {}; //초기화 O
+    // cout << test[0][0] << test[5][5];
+
+    bool arr[2][2] = {{1,1}, {1,1}};
+    bool arr2[2][2];
+    copy(&arr[0][0], &arr[2][2], &arr2[0][0]);
+    cout << arr2[1][1];
+    
 }
