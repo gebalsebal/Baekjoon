@@ -1,8 +1,8 @@
 import os
 
-name = input("생성할 폴더와 파일의 이름을 입력하세요: ").strip();
+name = input("생성할 폴더와 파일의 이름을 입력하세요: ").strip()
 
-folder_path = os.path.join(os.getcwd(), name)
+folder_path = os.path.join("C:\\Baekjoon\\C++\\BaekJoon", name)
 file_path = os.path.join(folder_path, f"{name}.cpp")
 
 os.makedirs(folder_path, exist_ok=True)
