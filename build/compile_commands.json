@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Baekjoon/build",
+  "command": "g++ -O3 -DNDEBUG -o CMakeFiles\\1185.dir\\release_test\\1185.cpp.obj -c C:\\Baekjoon\\release_test\\1185.cpp",
+  "file": "C:\\Baekjoon\\release_test\\1185.cpp",
+  "output": "CMakeFiles\\1185.dir\\release_test\\1185.cpp.obj"
+}
+]

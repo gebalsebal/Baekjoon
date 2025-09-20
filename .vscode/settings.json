@@ -1,8 +1,9 @@
 {
-    "files.associations": {
-        "iosfwd": "cpp",
-        "iostream": "cpp",
-        "cmath": "cpp",
-        "complex": "cpp"
-    }
+  "files.associations": {
+    "iosfwd": "cpp",
+    "iostream": "cpp",
+    "cmath": "cpp",
+    "complex": "cpp"
+  },
+  "cmake.sourceDirectory": "C:/Baekjoon"
 }

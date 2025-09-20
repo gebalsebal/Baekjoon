@@ -38,9 +38,19 @@ int main(){
     // int test[10][10] = {}; //초기화 O
     // cout << test[0][0] << test[5][5];
 
-    bool arr[2][2] = {{1,1}, {1,1}};
-    bool arr2[2][2];
-    copy(&arr[0][0], &arr[2][2], &arr2[0][0]);
-    cout << arr2[1][1];
-    
+    // bool arr[2][2] = {{1,1}, {1,1}};
+    // bool arr2[2][2];
+    // copy(&arr[0][0], &arr[2][2], &arr2[0][0]);
+    // cout << arr2[1][1];
+
+    int a[4] = {0,0,1,1};
+    int des[4] = {1,2,3,4};
+    do{
+        for(int i=0; i<4; i++){
+            if(a[i] ==0)
+            cout << des[i]; 
+        }
+        cout << '\n';
+    }while(next_permutation(a, a+4)); 
+    //next_permutation 으로 순열과 조합을 뽑아낼수있음
 }
