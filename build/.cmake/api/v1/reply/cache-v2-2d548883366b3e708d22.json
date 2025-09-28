@@ -38,7 +38,7 @@
 			"value" : "C:/Baekjoon"
 		},
 		{
-			"name" : "9663_BINARY_DIR",
+			"name" : "15654_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -50,7 +50,7 @@
 			"value" : "C:/Baekjoon/build"
 		},
 		{
-			"name" : "9663_IS_TOP_LEVEL",
+			"name" : "15654_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -62,7 +62,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "9663_SOURCE_DIR",
+			"name" : "15654_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -715,7 +715,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/hello"
+			"value" : "C:/Program Files (x86)/1185"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -935,7 +935,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "1185"
+			"value" : "15654"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1340,78 +1340,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "TRUE"
-		},
-		{
-			"name" : "hello_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Baekjoon/build"
-		},
-		{
-			"name" : "hello_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "hello_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Baekjoon"
-		},
-		{
-			"name" : "test_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Baekjoon/build"
-		},
-		{
-			"name" : "test_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "test_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Baekjoon"
 		}
 	],
 	"kind" : "cache",

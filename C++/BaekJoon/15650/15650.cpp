@@ -4,14 +4,17 @@
 using namespace std;
 
 int N,M;
-vector<int> v;
 
 int main(){
+	cin.tie(0);
+	ios::sync_with_stdio(0);
+
 	cin >> N >> M;
-	for(int i=1; i<N+1; i++) v.push_back(i);
+	vector<int> v(N);
+	
+	fill(v.begin()+M, v.end(), 1);
 	do{
-		for(int i=0; i<M; i++) cout << v[i] << ' ';
+		for(int i=0; i<N; i++) if(v[i]==0) cout << i+1 << ' ';
 		cout << '\n';
-		reverse(v.begin()+M, v.end());
 	} while(next_permutation(v.begin(), v.end()));
 }

@@ -3,7 +3,10 @@
     "iosfwd": "cpp",
     "iostream": "cpp",
     "cmath": "cpp",
-    "complex": "cpp"
+    "complex": "cpp",
+    "chrono": "cpp",
+    "bitset": "cpp",
+    "format": "cpp"
   },
   "cmake.sourceDirectory": "C:/Baekjoon"
 }

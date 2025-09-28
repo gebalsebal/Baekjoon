@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: 1185
+# Project: 15654
 # Configurations: Release
 # =============================================================================
 
@@ -41,37 +41,37 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Baekjoon/build/
 # =============================================================================
-# Object build statements for EXECUTABLE target 1185
+# Object build statements for EXECUTABLE target 15654
 
 
 #############################################
-# Order-only phony target for 1185
+# Order-only phony target for 15654
 
-build cmake_object_order_depends_target_1185: phony || .
+build cmake_object_order_depends_target_15654: phony || .
 
-build CMakeFiles/1185.dir/release_test/1185.cpp.obj: CXX_COMPILER__1185_unscanned_Release C$:/Baekjoon/release_test/1185.cpp || cmake_object_order_depends_target_1185
-  DEP_FILE = CMakeFiles\1185.dir\release_test\1185.cpp.obj.d
+build CMakeFiles/15654.dir/release_test/15654.cpp.obj: CXX_COMPILER__15654_unscanned_Release C$:/Baekjoon/release_test/15654.cpp || cmake_object_order_depends_target_15654
+  DEP_FILE = CMakeFiles\15654.dir\release_test\15654.cpp.obj.d
   FLAGS = -O3 -DNDEBUG
-  OBJECT_DIR = CMakeFiles\1185.dir
-  OBJECT_FILE_DIR = CMakeFiles\1185.dir\release_test
+  OBJECT_DIR = CMakeFiles\15654.dir
+  OBJECT_FILE_DIR = CMakeFiles\15654.dir\release_test
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 1185
+# Link build statements for EXECUTABLE target 15654
 
 
 #############################################
-# Link the executable 1185.exe
+# Link the executable 15654.exe
 
-build 1185.exe: CXX_EXECUTABLE_LINKER__1185_Release CMakeFiles/1185.dir/release_test/1185.cpp.obj
+build 15654.exe: CXX_EXECUTABLE_LINKER__15654_Release CMakeFiles/15654.dir/release_test/15654.cpp.obj
   FLAGS = -O3 -DNDEBUG
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\1185.dir
+  OBJECT_DIR = CMakeFiles\15654.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = 1185.exe
-  TARGET_IMPLIB = lib1185.dll.a
-  TARGET_PDB = 1185.exe.dbg
+  TARGET_FILE = 15654.exe
+  TARGET_IMPLIB = lib15654.dll.a
+  TARGET_PDB = 15654.exe.dbg
 
 
 #############################################
@@ -99,7 +99,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build 1185: phony 1185.exe
+build 15654: phony 15654.exe
 
 # =============================================================================
 # Folder targets.
@@ -109,7 +109,7 @@ build 1185: phony 1185.exe
 #############################################
 # Folder: C:/Baekjoon/build
 
-build all: phony 1185.exe
+build all: phony 15654.exe
 
 # =============================================================================
 # Unknown Build Time Dependencies.
