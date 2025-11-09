@@ -2,42 +2,6 @@
 	"entries" : 
 	[
 		{
-			"name" : "1185_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Baekjoon/build"
-		},
-		{
-			"name" : "1185_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "1185_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Baekjoon"
-		},
-		{
 			"name" : "15654_BINARY_DIR",
 			"properties" : 
 			[
@@ -715,7 +679,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/1185"
+			"value" : "C:/Program Files (x86)/15654"
 		},
 		{
 			"name" : "CMAKE_LINKER",

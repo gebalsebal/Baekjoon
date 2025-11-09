@@ -15,15 +15,6 @@
 ########################
 
 //Value Computed by CMake
-1185_BINARY_DIR:STATIC=C:/Baekjoon/build
-
-//Value Computed by CMake
-1185_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-1185_SOURCE_DIR:STATIC=C:/Baekjoon
-
-//Value Computed by CMake
 15654_BINARY_DIR:STATIC=C:/Baekjoon/build
 
 //Value Computed by CMake
@@ -127,7 +118,7 @@ CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=C:/Baekjoon/build/CMakeFiles/pkgRedirect
 CMAKE_GNUtoMS:BOOL=OFF
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/1185
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/15654
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/mingw64/bin/ld.exe
